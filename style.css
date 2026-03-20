@@ -1,6 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    max-height: 100vw;
+}
+
 .circulo {
-    height: 50vh;
-    width: 50vh;
+    height: 50%;
+    aspect-ratio: 1 / 1;
     background-color: #555;
     border-radius: 50%;
 }
